@@ -8,3 +8,227 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/*
+background purple: #540B51
+background ivory: #F3EAE2
+button blue: #4285F4
+titles black: #191817
+paragraph black: #000000
+paragraph yellow: #ECB12F
+links blue: #2E71A6
+footer links grey: #454245
+*/
+body { 
+    margin: 0; 
+    padding: 0}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #540B51;
+   
+}
+
+nav div {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+  }
+
+nav img#slack {
+
+    width: 10%;
+    
+}
+
+#navigation li a {
+    
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/background-singup.png");
+    background-size: cover;
+    padding-bottom: 80px;
+     
+}
+
+.leftColumn {
+    margin-left: 10%;
+}
+
+#app {
+    width: 60%;
+  }
+
+
+.button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #540B51;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 10px;
+  }
+
+h1 {
+    color: white;
+    font-size:60px;
+    
+}
+
+
+#yellow {
+
+    color: #ECB12F;
+}
+
+.leftColumn p {
+    color: white;
+}
+
+#google  {
+    display: flex;
+    justify-content: start;
+    background-color: #4285F4;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.icon {
+    background-color: #540B51;
+    border: none;
+}
+
+#google img {
+
+    background-color: white;
+    width:10%;
+    margin-right: 10px;
+}
+
+.signUp {
+    display: flex;
+
+}
+
+.signUp button {
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+}
+  #desktop {
+    display: none;
+    background-color: #540B51;
+    border: none;
+  }
+
+#sectionTwo {
+    background-color: #F3EAE2;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logos img {
+
+    width: 80px;
+    margin-left: 10px;
+}
+
+.infoCards {
+
+    display: flex;
+    align-items: center;
+    background-color: #F3EAE2;
+
+}
+
+
+.infoCards img {
+    width: 50%;
+   
+}
+
+@media(max-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .leftColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+
+    }
+    header div {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #mobileVersion{
+        display:none;
+        
+    }
+
+    #desktop {
+        display: inline;
+    }
+
+    #logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .infoCards {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F3EAE2;
+    
+    }
+}
